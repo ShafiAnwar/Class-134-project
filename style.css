@@ -1,0 +1,44 @@
+
+.heading
+{
+font-size: 40px;
+width: 100%;
+margin: 0px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#status,#number_objects_count
+{
+font-size: 18px;
+}
+.btn btn-warnig,.btn btn-success{
+font-size: 56px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+
+
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+canvas{
+    border: 3px solid darksalmon;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    animation-name: myname;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px !important ;
+overflow: scroll;
+}
+@keyframes myname{
+    50%{
+        box-shadow: 5px 5px 13px palegreen;
+    }
+    100%{
+        box-shadow:  5px 5px 13px rgba(8, 159, 247, 0.781);
+    }
+}
